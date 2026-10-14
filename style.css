@@ -1,0 +1,10 @@
+:root { --bg: #fbf6ec; --ink: #2b211c; --muted: #6b5d52; --line: #d9ccb6; --link: #1d6b66; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1d1916; --ink: #ece3d4; --muted: #a89a8a; --line: #3d342d; --link: #6cc3bb; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 Georgia, serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 1.7em; line-height: 1.25; }
+h2 { font-size: 1.2em; margin-top: 2em; }
+.meta { color: var(--muted); }
+a { color: var(--link); }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
